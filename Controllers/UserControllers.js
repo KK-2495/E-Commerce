@@ -29,6 +29,7 @@ export const register = async (req,res) => {
     }
 }
 
+
 export const registerCheck = async (req,res) => {
     const {email, number, emailOTP, numberOTP} = req.body;
     if(!email) return res.send("email is red");

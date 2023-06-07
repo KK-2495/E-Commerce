@@ -1,5 +1,4 @@
-import { error } from "console";
-import express,{json} from "express";
+import express from "express";
 import morgan from "morgan";
 import router from "./Routes/AllRoutes.js";
 import mongoose from "mongoose";

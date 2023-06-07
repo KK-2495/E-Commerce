@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
 
 import { Schema } from "mongoose";
-import { stringify } from "uuid";
-import { object } from "webidl-conversions";
+
 
 const product = new Schema({
     productName: String,
